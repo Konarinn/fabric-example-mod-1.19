@@ -1,0 +1,31 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.book.idle": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"coverleft": {
+					"rotation": {
+						"vector": [0, 0, 17.5]
+					}
+				},
+				"pageleft": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.4583": {
+							"vector": [0, 0, 130]
+						}
+					}
+				},
+				"coveright": {
+					"rotation": {
+						"vector": [0, 0, -27.5]
+					}
+				}
+			}
+		}
+	}
+}

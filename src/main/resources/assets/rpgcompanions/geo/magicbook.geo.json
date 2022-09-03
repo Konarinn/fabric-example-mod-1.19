@@ -1,0 +1,73 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "cover",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1, 1, -5], "size": [1, 1, 10], "uv": [22, 24]},
+						{"origin": [0, 1, -5], "size": [1, 1, 10], "uv": [10, 23]}
+					]
+				},
+				{
+					"name": "coverleft",
+					"parent": "cover",
+					"pivot": [0, 2, 0],
+					"cubes": [
+						{"origin": [-6, 0, -5], "size": [5, 1, 10], "uv": [0, 11]}
+					]
+				},
+				{
+					"name": "pagesleft",
+					"parent": "coverleft",
+					"pivot": [0, 1.5, 0],
+					"cubes": [
+						{"origin": [-5, 1, -5], "size": [5, 1, 10], "uv": [20, 1]}
+					]
+				},
+				{
+					"name": "pageleft",
+					"parent": "pagesleft",
+					"pivot": [0, 1.7, 0],
+					"cubes": [
+						{"origin": [-5, 2, -5], "size": [5, 0, 10], "uv": [10, 0]}
+					]
+				},
+				{
+					"name": "coveright",
+					"parent": "cover",
+					"pivot": [0, 2, 0],
+					"cubes": [
+						{"origin": [1, 0, -5], "size": [5, 1, 10], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "pagesright",
+					"parent": "coveright",
+					"pivot": [0, 1.5, 0],
+					"cubes": [
+						{"origin": [0, 1, -5], "size": [5, 1, 10], "uv": [20, 12]}
+					]
+				},
+				{
+					"name": "pageright",
+					"parent": "pagesright",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [0, 2, -5], "size": [5, 0, 10], "uv": [0, 22]}
+					]
+				}
+			]
+		}
+	]
+}
